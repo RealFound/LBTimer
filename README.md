@@ -58,3 +58,7 @@ alert-template:
 2. Place the `.jar` in your `plugins/` folder.
 3. Restart the server.
 4. Configure `tasks.yml` and `webhooks.yml` to your liking.
+
+## Contributors
+- [RealFound](https://github.com/RealFound) - Lead Developer
+- [CanBye](https://github.com/CanBye) - Developer
