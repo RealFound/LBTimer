@@ -1,0 +1,32 @@
+# LBTimer Tasks Configuration
+# All scheduled events should be defined here.
+
+Tasks:
+  test_restart:
+    name: "&cSunucu Yeniden Başlatma"
+    time: "03:00:00"
+    day:
+      - MONDAY
+      - TUESDAY
+      - WEDNESDAY
+      - THURSDAY
+      - FRIDAY
+      - SATURDAY
+      - SUNDAY
+    announce: true
+    material: WATCH
+    lore:
+      - "&7Bu etkinlik her gün"
+      - "&7saat 03:00'da gerçekleşir."
+    commands:
+      - "[MESSAGE] &8[&eLBTimer&8] &cSunucu yeniden başlatılıyor!"
+      - "kickall &cSunucu yeniden başlatılıyor!"
+      - "stop"
+    sub_tasks:
+      - time: -60
+        webhook: event-2
+        commands:
+          - "[MESSAGE] &8[&eLBTimer&8] &cSon 1 dakika!"
+      - time: -10
+        commands:
+          - "[MESSAGE] &8[&eLBTimer&8] &cSon 10 saniye!"

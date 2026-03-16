@@ -1,0 +1,24 @@
+name: LBTimer
+version: '1.0'
+main: plugin.lBTimer.LBTimer
+api-version: '1.19'
+softdepend: [PlaceholderAPI]
+
+commands:
+  lbtimer:
+    description: Main command for LBTimer
+    aliases: [tasktimer]
+
+permissions:
+  tasktimer.help:
+    description: Allows viewing the help message
+    default: true
+  lbtimer.events:
+    description: Allows opening the events menu
+    default: true
+  lbtimer.show:
+    description: Allows opening the events menu
+    default: true
+  lbtimer.reload:
+    description: Allows reloading the config
+    default: op

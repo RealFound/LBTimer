@@ -1,0 +1,26 @@
+# LBTimer Webhooks Configuration
+# Define reusable webhook templates here.
+
+event-1:
+  url: "WEBHOOK_URL_BURAYA"
+  username: "LBTimer - EVENT"
+  image: "https://i.imgur.com/logo.png"
+  thumbnail: "https://i.imgur.com/logo.png"
+  title: "%event% Başladı!"
+  description: "%event% etkinliği şu an başladı. Hemen katılın!"
+  footer: "LBTimer | Otomatik Sistem"
+  content: "@everyone"
+  color: "RED"
+  webUrl: ""
+
+event-2:
+  url: "WEBHOOK_URL_BURAYA"
+  username: "LBTimer - DUYURU"
+  image: "https://i.imgur.com/logo.png"
+  thumbnail: "https://i.imgur.com/logo.png"
+  title: "%event% Yaklaşıyor!"
+  description: "%event% etkinliğinin başlamasına %remaining% kaldı."
+  footer: "LBTimer | Bilgilendirme"
+  content: "@here"
+  color: "CYAN"
+  webUrl: ""
