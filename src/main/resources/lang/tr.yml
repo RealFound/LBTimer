@@ -1,0 +1,22 @@
+# LBTimer Turkish Language File
+messages:
+  prefix: "&8[&eLBTimer&8] &r"
+  no_permission: "&cBuna yetkiniz yok!"
+  reloaded: "&aEklenti başarıyla yeniden yüklendi!"
+  menu_title: "&8Etkinlikler"
+  no_events: "&cŞu anda planlanmış bir etkinlik bulunmuyor."
+  commands_help:
+    - "&8&m----------------------------------------"
+    - "&e&lLBTimer &7- &fYardım Menüsü"
+    - " "
+    - "&e/lbtimer &7- &fBu menüyü açar."
+    - "&e/lbtimer events &7- &fEtkinlikleri gösterir."
+    - "&e/lbtimer reload &7- &fEklentiyi yeniden yükler."
+    - "&8&m----------------------------------------"
+
+time_format:
+  days: "g"
+  hours: "s"
+  minutes: "dk"
+  seconds: "sn"
+  now: "Şimdi!"

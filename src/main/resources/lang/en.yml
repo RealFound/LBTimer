@@ -1,0 +1,22 @@
+# LBTimer English Language File
+messages:
+  prefix: "&8[&eLBTimer&8] &r"
+  no_permission: "&cYou don't have permission!"
+  reloaded: "&aPlugin successfully reloaded!"
+  menu_title: "&8Events"
+  no_events: "&cThere are no events planned right now."
+  commands_help:
+    - "&8&m----------------------------------------"
+    - "&e&lLBTimer &7- &fHelp Menu"
+    - " "
+    - "&e/lbtimer &7- &fOpens this menu."
+    - "&e/lbtimer events &7- &fShows events."
+    - "&e/lbtimer reload &7- &fReloads the plugin."
+    - "&8&m----------------------------------------"
+
+time_format:
+  days: "d"
+  hours: "h"
+  minutes: "m"
+  seconds: "s"
+  now: "Now!"
